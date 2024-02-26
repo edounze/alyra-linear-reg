@@ -51,7 +51,7 @@ for data in allData:
     yData.append(data[3])
 
 
-# Trie des données pour avoir un nuage de point adapté à la reg linéaire
+# Trie des données pour avoir un nuage de points adapté à la reg linéaire
 xData.sort()
 yData.sort(reverse=True) # Avec l'age on est moins grand
 
@@ -108,5 +108,3 @@ y_pred = model.predict(x_entries)
 print("Données en entrée", dataToPredict)
 print('x_entries : ',x_entries)
 print(f"predicted response:\n{y_pred}")
-
-print(np.array([1, 2, 3, 4, 5]))
