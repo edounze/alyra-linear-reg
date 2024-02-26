@@ -51,7 +51,7 @@ for data in allData:
     yData.append(data[3])
 
 
-# Trie des données pour que les données aient une pente décroissante
+# Trie des données pour avoir un nuage de point adapté à la reg linéaire
 xData.sort()
 yData.sort(reverse=True) # Avec l'age on est moins grand
 
